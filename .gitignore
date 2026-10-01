@@ -1,0 +1,23 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+
+# --- VS Code ---
+.vscode/
+
+# --- Large data & built indexes (rebuild locally with --rebuild) ---
+data/books/
+data/.cache_docs/
+data/embeddings.npy
+data/.embeddings_checkpoint.npz
+
+faiss_store/index.faiss
+faiss_store/chunk_store.json
+bm25_search/bm25_index.json
+
+# --- Misc ---
+*.tmp
+*.log
+.env

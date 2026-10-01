@@ -1,0 +1,6 @@
+faiss-cpu
+numpy
+pypdf
+rank-bm25
+tiktoken
+requests
